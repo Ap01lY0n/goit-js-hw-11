@@ -1,23 +1,20 @@
-.is-hidden {
+.is-hidden{
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-
-.stick {
+.stick{
   position: sticky;
   top: 0;
   background-color: rgba(192, 41, 179, 0.84);
 }
-
-.img {
+.img{
   display: block;
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
-.search-form {
+.search-form{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 16px;
@@ -25,14 +22,12 @@
   padding-bottom: 6px;
   width: fit-content;
 }
-
-.search-form button {
+.search-form button{
   border-radius: 5px;
   border-color: rgb(227, 241, 241);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
-.load-more {
+.load-more{
   display: block;
   min-width: 90px;
   height: 32px;
@@ -48,29 +43,26 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.gallery {
+.gallery{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
-
   margin-bottom: 16px;
   padding-bottom: 8px;
 }
 
-.photo-card {
+.photo-card{
   flex-basis: calc(100% / 4 - 32px);
   background-color: rgb(243, 243, 243);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
-.img-box {
+.img-box{
   height: 320px;
   width: 100%;
 }
-
-.info {
+.info{
   display: flex;
   justify-content: center;
   gap: 12px;
@@ -81,15 +73,7 @@
   list-style: none;
   font-weight: bold;
 }
-
-.info-item p {
-  margin: 0;
-
-  font-weight: normal;
-  text-align: center;
-}
-
-.cheack-box {
+.cheack-box{
   display: flex;
   justify-content: left;
   align-items: center;
@@ -97,4 +81,9 @@
   font-size: 12px;
   letter-spacing: 1.15;
   color: rgb(0, 0, 0);
+}
+.info-item p{
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
 }
