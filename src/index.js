@@ -62,9 +62,9 @@ function loadMorelResult() {
   const heightGallery = interFace.gallery.scrollHeight;
   const { height: cardHeigth } =
     interFace.gallery.firstElementChild.getBoundingClientRect();
-  const currentScroll = window.scrollY;
+  const currentScroll = interFace.gallery.scrollTop;
 
-  const isEndOfPage = currentScroll > heightGallery - cardHeigth * 3;
+  const isEndOfPage = currentScroll + interFace.gallery.clientHeight >= heightGallery - cardHeigth * 3;
 
   if (isEndOfPage && !totalImg) {
     interFace.offListenerScroll();
