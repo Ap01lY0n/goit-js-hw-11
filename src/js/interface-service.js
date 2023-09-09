@@ -2,6 +2,7 @@ import Notiflix from 'notiflix';
 import throttle from 'lodash.throttle';
 import simpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
+import 'intersection-observer';
 
 class MarkUpInterface {
   constructor({ form, gallery, buttonMore }) {
